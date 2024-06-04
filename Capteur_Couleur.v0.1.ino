@@ -27,7 +27,7 @@ void loop() {
   // second with getRGB
   /*float r, g, b;
   tcs.getRGB(&r, &g, &b);*/
-  
+  /*
   Serial.println("New Aquisition :");
   Serial.print("red = ");
   Serial.println(r);
@@ -37,5 +37,5 @@ void loop() {
   Serial.println(b);
   Serial.print("lum = ");
   Serial.println(c);
-  delay(500);
+  delay(500);*/
 };
