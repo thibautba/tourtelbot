@@ -20,14 +20,14 @@ void setup() {
 
 void loop() {
   // first with the raw datas
-  tcs.setInterrupt(true);  // turn off LED
+  /*tcs.setInterrupt(true);  // turn off LED
   uint16_t r, g, b, c, Temp, lux;
-  tcs.getRawData(&r, &g, &b, &c);
+  tcs.getRawData(&r, &g, &b, &c);*/
 
   // second with getRGB
-  /*float r, g, b;
-  tcs.getRGB(&r, &g, &b);*/
-  /*
+  float r, g, b;
+  tcs.getRGB(&r, &g, &b);
+  
   Serial.println("New Aquisition :");
   Serial.print("red = ");
   Serial.println(r);
@@ -37,5 +37,5 @@ void loop() {
   Serial.println(b);
   Serial.print("lum = ");
   Serial.println(c);
-  delay(500);*/
+  delay(500);
 };
